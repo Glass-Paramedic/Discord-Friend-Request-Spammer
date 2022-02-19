@@ -1,6 +1,6 @@
 import requests
 
-with open("t.txt", "r") as myfile:
+with open("tokens.txt", "r") as myfile:
   for line in myfile:
     try:
       tokey = (line.rstrip('\n'))
