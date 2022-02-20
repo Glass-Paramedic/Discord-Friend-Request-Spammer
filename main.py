@@ -28,7 +28,7 @@ with open("tokens.txt", "r") as myfile:
 
       json_data = {
           'username': 'Deltara',
-          'discriminator': 4947,
+          'discriminator': 1337,
       }
 
       response = requests.post('https://discord.com/api/v9/users/@me/relationships', headers=headers, json=json_data)
